@@ -13,41 +13,9 @@ h2, h3{
     margin: 0 auto;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-}
-
-.widgets .container{
-    background: #2269BB;
-    padding: 50px 0;
-}
-
-.contact .container{
-    background: #2269BB;
-    padding: 100px 0;
-}
-
-.widgets__line .container{
-    display: flex;
-    gap: 20px;
-    padding: 20px 0;
-
-}
-
-.item{
-    display: flex;
-    justify-content: center;
-    width: 33%;
-    align-content: center;
-    background: #16457A;
-    padding: 100px 0;
-}
-
-/*index2.html*/
 .responsive{
     margin-top: 200px;
-    background: aliceblue;
+
 }
 
 .list{
@@ -57,6 +25,7 @@ h2, h3{
 }
 
 .list__item{
+    background: aliceblue;
     max-width: 230px;
     padding: 60px 40px 40px 40px;
     color: #333;
@@ -65,11 +34,47 @@ h2, h3{
     justify-content: center;
     align-content: center;
     border: 2px solid #333;
+    position: relative;
+    z-index: 0;
 }
+
+.item__circle{
+    width: 85px;
+    height: 85px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    z-index: 2;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fa-house{
+    font-size: 30px;
+    color: green;
+}
+
+.fa-user{
+    font-size: 30px;
+    color: yellow;
+}
+
+.fa-star{
+    font-size: 30px;
+    color: red;
+}
+
+
 .item__title{
     font-size: 24px;
     font-weight: bold;
 }
+
 
 .item__text{
     text-align: center;
