@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*h2, h3{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.main{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.header{
+    max-width: 800px;
+    margin: 0 auto;
+    background: silver;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/*.main{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 40px;
+    width: 120px;
+    background: #16457A;
+    border-radius: 8px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.fa-solid{
+    color:#6964e2;
+    font-size: 30px;
+}
+
+.main{
+    min-height: 240px;
+    background: #16457A;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 230px;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background: #6964e2;
+
+}
+
+.footer{
+    min-height: 160px;
+    background: silver;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
