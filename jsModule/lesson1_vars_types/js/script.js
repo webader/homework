@@ -12,6 +12,9 @@ let firstGreeting = 'hello',
     trueing = true,
     falseing = false;
 
+console.log(firstGreeting, secondGreeting, thirdGreeting, fourthGreeting, one, ten, minusThousand, hundred,
+    piFloat, nextFloat, trueing, falseing);
+
 let firstName = 'Oleksii',
     lastName = 'Derenko',
     middleName = 'Volodimirovich'
@@ -28,11 +31,13 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-let namePrompt = prompt('Yure name please');
-let middlePrompt = prompt('Yure middle name please');
-let lastPrompt = prompt('Yure last mame please');
+let namePrompt = prompt('Your name please');
+let middlePrompt = prompt('Your middle name please');
+let lastPrompt = prompt('Your last mame please');
+let agePrompt = +prompt('Your age please');
 
 
-console.log(`Hello ${namePrompt} ${middlePrompt} ${lastPrompt} `);
+
+console.log(`Hello ${namePrompt} ${middlePrompt} ${lastPrompt}. Your old is ${agePrompt}`);
 
 
