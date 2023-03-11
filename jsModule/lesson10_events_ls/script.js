@@ -67,8 +67,6 @@
 // в масив sessions зберігається інформація про дату та час відвідування сторінки.
 
 let sessions = []
-
-const body = document.createElement('body');
 body.onload = function (e) {
     let time = new Date();
     let session = {
